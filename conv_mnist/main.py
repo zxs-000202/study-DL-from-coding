@@ -15,8 +15,8 @@ num_classes = 10
 batch_size = 100
 learning_rate = 0.001
 
-DATA_PATH = 'F:\22summer\DL\study-DL-from-coding\conv_mnist\MNISTData'  # 更换为你自己电脑上相应的文件路径
-MODEL_STORE_PATH = 'F:\22summer\DL\study-DL-from-coding\conv_mnist\pytorch_models\\'  #  更换为你自己电脑上相应的文件路径
+DATA_PATH = 'F:\summer\DL\study-DL-from-coding\conv_mnist\MNISTData'  # 更换为你自己电脑上相应的文件路径
+MODEL_STORE_PATH = 'F:\summer\DL\study-DL-from-coding\conv_mnist\pytorch_models\\'  #  更换为你自己电脑上相应的文件路径
 
 # transforms to apply to the data
 trans = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))])
